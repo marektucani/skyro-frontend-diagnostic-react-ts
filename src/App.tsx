@@ -1,11 +1,9 @@
-import ProductCard from './components/ProductCard'
+import { ProductCard } from './components/ProductCard'
 
-function App() {
+export function App() {
     return (
         <main className="app-shell">
             <ProductCard />
         </main>
     )
 }
-
-export default App

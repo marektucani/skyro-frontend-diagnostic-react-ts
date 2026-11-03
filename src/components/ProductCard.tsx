@@ -1,3 +1,3 @@
-export default function ProductCard() {
+export function ProductCard() {
     return <section />
 }
