@@ -1,5 +1,6 @@
 import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
 const mockApiDelay = 2_000
 
@@ -99,4 +100,4 @@ function mockApi(): Plugin {
     }
 }
 
-export default defineConfig({ plugins: [react(), mockApi()] })
+export default defineConfig({ plugins: [tailwindcss(), react(), mockApi()] })
